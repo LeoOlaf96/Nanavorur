@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const SHOPIFY_DOMAIN = "nanavorur.myshopify.com";
-const STOREFRONT_TOKEN = "PASTE_YOUR_PUBLIC_TOKEN_HERE";
+const STOREFRONT_TOKEN = "2243ae64611d44af192356cc7fd6928e";
 
 function App() {
   useEffect(() => {
