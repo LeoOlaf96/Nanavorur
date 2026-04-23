@@ -653,9 +653,12 @@ export default function App() {
                 placeholder={t.emailPlaceholder}
                 className="w-full rounded-2xl border-0 px-5 py-4 text-zinc-800 outline-none"
               />
-              <button className="rounded-2xl bg-white px-6 py-4 font-bold text-pink-500 transition hover:bg-pink-50">
-                {t.newsletterButton}
-              </button>
+              <button
+  onClick={startCheckout}
+  className="mt-6 w-full rounded-2xl bg-pink-500 px-4 py-4 font-bold text-white transition hover:bg-pink-600"
+>
+  {t.checkout}
+</button>
             </form>
           </div>
         </section>
