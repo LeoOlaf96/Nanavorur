@@ -408,7 +408,11 @@ export default function App() {
             <h2 className="mb-8 text-3xl font-black text-zinc-900">
               {t.featuredTitle}
             </h2>
-
+            
+            <div className="p-4 text-sm text-red-500">
+  Products loaded: {shopifyProducts.length}
+</div>
+            
             {isLoadingProducts ? (
               <div className="rounded-[2rem] bg-pink-50 p-8 text-center text-zinc-500 ring-1 ring-pink-100">
                 {locale === "is" ? "Hleð inn vörum..." : "Loading products..."}
