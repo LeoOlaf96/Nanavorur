@@ -94,7 +94,7 @@ export default function App() {
             const image =
               node?.featuredImage?.url ||
               node?.images?.edges?.[0]?.node?.url ||
-              "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=1200&q=80";
+              "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=1200&q=80"
 
             const fallbackBadge =
               locale === "is"
